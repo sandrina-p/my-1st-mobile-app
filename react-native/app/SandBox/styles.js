@@ -30,9 +30,9 @@ export const StyledView = styled.View`
     background-color: ${props => props.theme.bg };
 `;
 
-export const StyledFooter = styled.View`
+export const StyledBar = styled.View`
     position: absolute;
-    bottom: 16;
+    ${ props => props.bottom ? 'bottom' : 'top' }: 16;
     flex: 1;
     justify-content: center;
     align-items: center;

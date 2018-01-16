@@ -3,11 +3,12 @@ import {
     Platform,
     Text,
     View,
-    Button
+    Button,
+    Linking
 } from 'react-native';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from "styled-components/native";
-import { theme, StyledView, StyledFooter, StyledText} from './styles';
+import { theme, StyledView, StyledBar, StyledText} from './styles';
 
 export default class App extends Component<{
     theme: string,
@@ -44,9 +45,17 @@ export default class App extends Component<{
         return (
             <ThemeProvider theme={ theme[this.state.theme] }>
                 <StyledView>
+                    <StyledBar>
+                        <Button
+                            color={ theme[this.state.theme].neutral }
+                            onPress={() => Linking.openURL('https://github.com/sandrina-p/my-1st-mobile-app')}
+                            title="🔬 source code"
+                        />
+                    </StyledBar>
                     <StyledText>
                         Something is borning
                     </StyledText>
+
                     <StyledText size='xl'>
                         { this.stages[this.state.grown] }
                     </StyledText>
@@ -55,14 +64,13 @@ export default class App extends Component<{
                         onPress={ this.makeItGrow }
                         title="Click me to grow"
                     />
-
-                    <StyledFooter>
+                    <StyledBar bottom>
                         <Button
                             color={ theme[this.state.theme].neutral }
                             onPress={ this.toggleTheme }
                             title={ this.state.theme === 'light' ? '🌙 Night mode' : '😎 Day mode' }
                         />
-                    </StyledFooter>
+                    </StyledBar>
                 </StyledView>
             </ThemeProvider>
         )
