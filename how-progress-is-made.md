@@ -10,17 +10,20 @@ It's also a way to keep myself motivated and don't lose the focus 💪
 
 ### 7th
 - 🔍 Explore possible stacks:
-    - [x] React-native
-    - [ ] Redux
-    - [ ] Apollo
-    - [ ] Firebase
-    - [x] Graphql
-    - [ ] Webpack
-    - [x] Parcel
-    - [x] Styled-components
-    - [ ] Glamorous
+    - [x] React-native 🦄
+    - [x] Redux
+    - [x] Apollo || Firebase || GraphQL || **[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)**
+    - [x] **[Styled-components](https://www.styled-components.com/docs/basics#react-native)** || Glamorous
+    - [ ] Flow || Typescript
 
 ### 10th
 - 📍 Creation of this repository
 - 🔍 How does a DB work?
     - Explore possible Storage Solutions: [AsyncStorage](https://stackoverflow.com/a/44549668/4737729)
+
+
+### 16th
+- 🔍 Explore [Expo](https://expo.io/)
+- 🔍 How to organize React application - [Medium article](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+- 🔍 How do Styles work with react-native? 🌈
+- 🌱 Build & Deploy first Demo App `makeItGrow`
