@@ -1,4 +1,4 @@
-package com.moneyapp;
+package com.makeitgrow;
 
 import android.app.Application;
 
