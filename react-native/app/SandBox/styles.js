@@ -11,12 +11,12 @@ const sizes = {
 export const theme = {
     dark: {
         bg: 'black',
-        fg: 'white',
+        fg: '#e6f5c8',
         primary: '#ffd72a',
         neutral: '#878787',
     },
     light: {
-        bg: 'white',
+        bg: '#e6f5c8',
         fg: 'black',
         primary: '#e84926',
         neutral: '#878787',

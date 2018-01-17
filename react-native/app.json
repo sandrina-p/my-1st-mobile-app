@@ -1,4 +1,18 @@
 {
   "name": "makeItGrow",
-  "displayName": "makeItGrow"
+  "displayName": "makeItGrow",
+  "expo": {
+        "name": "Make It Grow",
+        "slug": "make-it-grow",
+        "sdkVersion": "24.0.0",
+        "privacy": "public",
+        "githubUrl": "https://github.com/sandrina-p/my-1st-mobile-app",
+        "orientation": "portrait",
+        "icon": "./app/SandBox/icon.png",
+        "splash": {
+            "image": "./app/SandBox/splash.png",
+            "backgroundColor": "#ffffff",
+            "resizeMode": "cover"
+        }
+  }
 }
