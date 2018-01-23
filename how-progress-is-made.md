@@ -27,3 +27,7 @@ It's also a way to keep myself motivated and don't lose the focus 💪
 - 🔍 How to organize React application - [Medium article](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
 - 🔍 How do Styles work with react-native? 🌈
 - 🌱 Build & Deploy first Demo App `makeItGrow`
+
+
+### 22nd
+- 📝 UX - write down some possible app features 
