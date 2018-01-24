@@ -30,4 +30,14 @@ It's also a way to keep myself motivated and don't lose the focus 💪
 
 
 ### 22nd
-- 📝 UX - write down some possible app features 
+- 📝 UX - write down some possible app features
+
+### 23rd
+- 📝 UX - write down possible user flows.
+- ⚙️ Add `redux` and `react-navigation`
+
+
+### next
+- 💎 Add `ESLint`
+- 🔭 Explore more about `react-navigation` patterns / options
+- ⚙️ Add `AsyncStorage`

@@ -1,0 +1,1 @@
+export const SUBMIT_NEW_TEXT = 'SUBMIT_NEW_TEXT';
