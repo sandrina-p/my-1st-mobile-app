@@ -38,10 +38,10 @@ It's also a way to keep myself motivated and don't lose the focus 💪
 
 
 ## February
-I have an ideia how to build this. Development spike/concept is done. So, let's decide what to create: Money management app to track expenses and help saving.
+Development spike/concept is done, since I have now an idea how to build this. So, let's decide what to create and what it looks like.  
+Money management app to track expenses and help saving.
 
-### Most of the month
-- 🍭 UX time most of the month:
+- 🍭 UX - Along the month:
   - Some analysis - SWOT, JTBD, MVP, etc.
   - Survey - [Sheets Results](https://docs.google.com/spreadsheets/d/1ErJ21vRXp2-AyAHy-Z41a5G-GmJJXXl6UlsO9yw9N0k/edit?usp=sharing)
   - First wireframes
