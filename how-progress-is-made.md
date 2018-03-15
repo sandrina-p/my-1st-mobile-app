@@ -2,7 +2,7 @@ This is my attempt to keep track of my App's progress from the very beginning to
 
 It's also a way to keep myself motivated and don't lose the focus 💪
 
-# 2017
+# 2018
 ## January
 
 ### 1st
