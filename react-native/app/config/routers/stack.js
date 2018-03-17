@@ -1,12 +1,12 @@
 import { StackNavigator } from 'react-navigation';
 
-import TabNavigatorWrapperScreen from '../../screens/Home/Wrapper.js';
+import TabNavigator from '../../screens/TabNavigator';
 import Chat from '../../screens/Chat';
 
 export default StackNavigator(
     {
         Home: {
-            screen: TabNavigatorWrapperScreen,
+            screen: TabNavigator,
             navigationOptions: {
                 // title: 'Home',
                 header: () => null,
@@ -21,6 +21,7 @@ export default StackNavigator(
         }
     },
     {
-        headerMode: 'screen'
+        // headerMode: 'none',
+        // mode: 'modal',
     }
 )

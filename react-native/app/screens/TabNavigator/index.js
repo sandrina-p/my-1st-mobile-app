@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import TabNavigator from '../../config/routers/tab';
 
-export default class NavigatorWrappingScreen extends Component<{}> {
+export default class TabNavigatorSreen extends Component<{}> {
     render() {
         return (
             <View style={{flex: 1}}>
@@ -12,4 +12,4 @@ export default class NavigatorWrappingScreen extends Component<{}> {
     }
 }
 
-NavigatorWrappingScreen.router = TabNavigator.router;
+TabNavigatorSreen.router = TabNavigator.router;

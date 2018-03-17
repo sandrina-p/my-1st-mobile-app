@@ -51,9 +51,11 @@ Money management app to track expenses and help saving.
   - 🎨 First mockups
 
 ### 17th
-  - 💎 Add `ESLint`
-  - 🔭 Explore more about `react-navigation` patterns / options
+  - 🛠 Add `ESLint`
+  - 🔍 Explore more about `react-navigation` patterns / options
 
+  - 🔍 Take notes of possible data structures
+  - 🌱 Dev "add expense" screen
 ---
 
 ---
