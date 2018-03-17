@@ -11,6 +11,6 @@ export default class Root extends Component<{}> {
                     title={ 'Go to Chat' }
                 />
             </View>
-        )
+        );
     }
 }

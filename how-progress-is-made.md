@@ -50,13 +50,15 @@ Money management app to track expenses and help saving.
 ### 1st - 15th
   - 🎨 First mockups
 
+### 17th
+  - 💎 Add `ESLint`
+  - 🔭 Explore more about `react-navigation` patterns / options
+
 ---
 
 ---
 
 ### Next steps on Dev
-- 💎 Add `ESLint`
-- 🔭 Explore more about `react-navigation` patterns / options
 - ⚙️ Add `AsyncStorage`
 
 ---

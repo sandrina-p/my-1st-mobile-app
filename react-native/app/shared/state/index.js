@@ -1,9 +1,7 @@
 import { combineReducers } from 'redux';
 
-import main from './Main';
-import navigation from './Navigation';
+import foo from './Foo';
 
 export default combineReducers({
-    main,
-    navigation
-})
+    foo,
+});

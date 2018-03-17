@@ -7,7 +7,7 @@ import {
     Linking
 } from 'react-native';
 import PropTypes from 'prop-types';
-import { ThemeProvider } from "styled-components/native";
+import { ThemeProvider } from 'styled-components/native';
 import { theme, StyledView, StyledBar, StyledText} from './styles';
 
 export default class App extends Component<{
@@ -33,7 +33,7 @@ export default class App extends Component<{
 
         this.stages = [
             '✨', '🌱', '🌿', '🌳', '🏡', '🏘', '🏰', '✈️', '🚀', '💫', '👽', '👾', '✨'
-        ]
+        ];
 
         this.state = {
             theme: props.theme || 'dark',
@@ -73,7 +73,7 @@ export default class App extends Component<{
                     </StyledBar>
                 </StyledView>
             </ThemeProvider>
-        )
+        );
     }
 
     makeItGrow() {
