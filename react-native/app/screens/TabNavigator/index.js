@@ -5,8 +5,8 @@ import TabNavigator from '../../config/routers/tab';
 export default class TabNavigatorSreen extends Component<{}> {
     render() {
         return (
-            <View style={{flex: 1}}>
-                <TabNavigator navigation={this.props.navigation} />
+            <View style={ {flex: 1} }>
+                <TabNavigator navigation={ this.props.navigation } />
             </View>
         );
     }

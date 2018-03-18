@@ -31,12 +31,18 @@ module.exports = {
         ],
         "quotes": [
             "error",
-            "single"
+            "single", {
+                "avoidEscape": true
+            }
         ],
         "semi": [
             "error",
             "always"
         ],
+
+        'react/jsx-curly-spacing': [2, 'always'],
+        'react/jsx-equals-spacing': [2, 'never'],
+
         "flowtype/boolean-style": [
             2,
             "boolean"

@@ -1,13 +1,13 @@
-import React  from 'react';
-import { Provider, connect } from 'react-redux';
-import { TabNavigator, StackNavigator } from './config/routers';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { StackNavigator } from './config/routers';
 
 import store from './store';
 
-const App = () => <StackNavigator />;
-
-export default () => (
-    <Provider store={store}>
-        <App />
+const App = () => (
+    <Provider store={ store }>
+        <StackNavigator />
     </Provider>
 );
+
+export default App;
